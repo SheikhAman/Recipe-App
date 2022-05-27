@@ -93,7 +93,7 @@ class _MyAppState extends State<MyApp> {
             .copyWith(secondary: Colors.amber),
       ),
       // home: CategoriesScreen(),
-      // initialRoute: '/',
+      initialRoute: '/',
       routes: {
         '/': (BuildContext context) => TabsScreen(_favoriteMeals),
         CategoryMealsScreen.routeName: (BuildContext context) =>
